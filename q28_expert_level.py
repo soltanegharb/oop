@@ -4,6 +4,14 @@ Add a method to apply a discount to the price.
 """
 
 
+
+
+
+
+
+
+
+
 # Iris solution
 class Product:
     def __init__(self, name, price):

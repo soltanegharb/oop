@@ -3,6 +3,14 @@ Add methods to calculate the area and perimeter of the rectangle.
 """
 
 
+
+
+
+
+
+
+
+
 # My solution
 class Rectangle:
     def __init__(self, length, width):

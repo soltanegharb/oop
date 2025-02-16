@@ -6,6 +6,15 @@ Add methods to deposit and withdraw money, and to check the balance.
 from decimal import Decimal, getcontext
 
 
+
+
+
+
+
+
+
+
+# My solution
 class BankAccount:
     def __init__(self, account_number, balance):
         self.account_number = account_number

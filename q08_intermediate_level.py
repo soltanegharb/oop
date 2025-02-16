@@ -3,6 +3,33 @@
 """
 
 
+
+
+
+
+
+
+
+
+class Student:
+    def __init__(self, name:str, grades:list):
+        self.name = name
+        self.grades = grades
+
+    def calculate_average_grade(self):
+        return sum(self.grades)/len(self.grades)
+    
+    def add_grade(self, grade):
+        self.grades.append(grade)
+
+
+reza = Student(name='reza', grades=[10, 20, 15, 18, 5, 6, 19])
+print(reza.calculate_average_grade())
+reza.add_grade(11)
+print(reza.grades)
+print(reza.calculate_average_grade())
+
+
 # Iris solution
 class Student:
     def __init__(self, name):

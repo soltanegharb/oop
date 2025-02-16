@@ -4,6 +4,14 @@ Ensure that only one instance of the class can be created.
 """
 
 
+
+
+
+
+
+
+
+
 # Iris solution
 class Logger:
     _instance = None

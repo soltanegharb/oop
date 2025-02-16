@@ -5,6 +5,14 @@ Use encapsulation to ensure vectors are of the same length for these operations.
 """
 
 
+
+
+
+
+
+
+
+
 # Iris solution
 class Vector:
     def __init__(self, *components):

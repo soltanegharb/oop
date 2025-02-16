@@ -5,6 +5,14 @@ a static method is_valid_employee_data to validate the dictionary data.
 """
 
 
+
+
+
+
+
+
+
+
 # Iris solution
 class Employee:
     def __init__(self, name, salary):

@@ -5,6 +5,14 @@ NotImplementedError. Create subclasses Circle and Square that implement the area
 from math import pi
 
 
+
+
+
+
+
+
+
+
 # My solution
 class Shape:
     def area(self):

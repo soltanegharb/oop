@@ -3,6 +3,14 @@ and get notified when a new article is published. Implement the observer pattern
 """
 
 
+
+
+
+
+
+
+
+
 # Iris solution
 class Publisher:
     def __init__(self):

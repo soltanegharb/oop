@@ -4,6 +4,14 @@ Implement methods to get the current state, set a new state, and define valid tr
 """
 
 
+
+
+
+
+
+
+
+
 # Iris solution
 class StatefulObject:
     def __init__(self, initial_state):

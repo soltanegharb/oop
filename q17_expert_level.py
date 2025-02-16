@@ -3,6 +3,14 @@ subtraction, and dot product. Override the __add__, __sub__, and __mul__ methods
 """
 
 
+
+
+
+
+
+
+
+
 # My solution
 class Vector:
     def __init__(self, x_position, y_position):

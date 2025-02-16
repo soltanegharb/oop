@@ -3,6 +3,44 @@
 """
 
 
+from typing import List
+
+
+
+
+
+
+
+
+
+
+# My solution
+class Library:
+    def __init__(self, name:str, books:List[str]):
+        self.name = name
+        self.books = books
+    
+    def add_book(self, book_title:str):
+        self.books.append(book_title)
+    
+    def remove_book(self, book_title:str):
+        try:
+            finded_book_index = self.books.index(book_title)
+        except ValueError('book not in books'):
+            pass
+
+    def list_books(self):
+        return self.books
+
+
+allame_rafiei_library = Library(name='allame_rafiei', books=['quran', 'riazi', 'physics'])
+print(allame_rafiei_library.books)
+allame_rafiei_library.add_book('tarikh')
+print(allame_rafiei_library.list_books())
+allame_rafiei_library.remove_book('tarikh')
+print(allame_rafiei_library.list_books())
+
+
 # Iris solution
 class Library:
     def __init__(self, name):

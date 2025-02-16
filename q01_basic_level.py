@@ -2,6 +2,15 @@
 Create an instance of this class and print the attributes.
 """
 
+
+
+
+
+
+
+
+
+
 # My solution
 class Person:
     def __init__(self, name, age):

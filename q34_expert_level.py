@@ -5,6 +5,14 @@ a static method to list all registered plugins.
 """
 
 
+
+
+
+
+
+
+
+
 # Iris solution
 class Plugin:
     registry = []

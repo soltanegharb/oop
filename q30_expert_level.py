@@ -4,6 +4,14 @@ Implement the observer pattern using private and protected attributes.
 """
 
 
+
+
+
+
+
+
+
+
 # Iris solution
 class Observable:
     def __init__(self):

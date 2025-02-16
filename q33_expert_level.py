@@ -3,6 +3,14 @@ only one instance of the class can be created.
 """
 
 
+
+
+
+
+
+
+
+
 # Iris solution
 class MetaSingleton(type):
     _instances = {}

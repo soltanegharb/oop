@@ -4,6 +4,14 @@ Also, add a static method is_valid_salary to check if a salary is a positive num
 """
 
 
+
+
+
+
+
+
+
+
 # Iris solution
 class Employee:
     def __init__(self, name, salary):

@@ -3,6 +3,37 @@ Create a subclass named Dog that adds an attribute breed and a method bark.
 """
 
 
+
+
+
+
+
+
+
+
+# My solution
+class Animal:
+    species = None
+    def __init__(self, name:str):
+        self.name = name
+
+
+class Dog(Animal):
+    species = 'Mammals'
+    def __init__(self, name:str, breed:str):
+        super().__init__(name)
+        self.breed = breed
+    
+    @staticmethod
+    def bark():
+        return f'hop hop hoppp'
+
+
+jessi = Dog('jessi', 'german')
+print(jessi.species)
+print(jessi.bark())
+
+
 # Iris solution
 class Animal:
     def __init__(self, name, species):

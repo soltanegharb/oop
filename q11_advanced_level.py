@@ -3,6 +3,14 @@ Create a subclass named Manager that inherits from Employee and adds an attribut
 department. Override the __str__ method to print the details of the manager.
 """
 
+
+
+
+
+
+
+
+
 # My solution
 class Employee:
     def __init__(self, name, salary):
